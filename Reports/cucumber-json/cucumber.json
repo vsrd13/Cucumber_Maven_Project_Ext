@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "testing-the-login-feature-of-any-website;login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 184627714,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user will navigates to \"https://www.gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.gmail.com",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinitionsLogin.user_will_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 318175,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user log in using \"vertuser2@vertex.local\" and \"U@tP@ssw0rd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vertuser2@vertex.local",
+                  "offset": 19
+                },
+                {
+                  "val": "U@tP@ssw0rd",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinitionsLogin.user_log_in_using_and(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217676,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinitionsLogin.click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236921,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user login should be successful",
+            "match": {
+              "location": "StepDefinitionsLogin.user_login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the Login Feature of any website",
+    "description": "I want to use this template for my feature file",
+    "id": "testing-the-login-feature-of-any-website",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

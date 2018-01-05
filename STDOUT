@@ -1,0 +1,17 @@
+Feature: Testing the Login Feature of any website
+  I want to use this template for my feature file
+
+  #@tag1
+  Scenario Outline: Login Functionality                  # login.feature:5
+    Given user will navigates to "<URL>"
+    When user log in using "<UserName>" and "<Password>"
+    When click on login button
+    Then user login should be successful
+
+    Examples: 
+
+  Scenario Outline: Login Functionality                               # login.feature:13
+    Given user will navigates to "https://www.gmail.com"              # StepDefinitionsLogin.user_will_navigates_to(String)
+    When user log in using "vertuser2@vertex.local" and "U@tP@ssw0rd" # StepDefinitionsLogin.user_log_in_using_and(String,String)
+    When click on login button                                        # StepDefinitionsLogin.click_on_login_button()
+    Then user login should be successful                              # StepDefinitionsLogin.user_login_should_be_successful()
