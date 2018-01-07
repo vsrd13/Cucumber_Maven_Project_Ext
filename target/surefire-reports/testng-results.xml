@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2769" started-at="2018-01-07T21:57:55Z" finished-at="2018-01-07T21:57:58Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.runner.ExcelSheetreporting@62043840]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="2769" started-at="2018-01-07T21:57:55Z" finished-at="2018-01-07T21:57:58Z">
+      <class name="com.cucumber.runner.ExcelSheetreporting">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.runner.ExcelSheetreporting@62043840]" name="setUpClass" is-config="true" duration-ms="400" started-at="2018-01-07T14:57:55Z" finished-at="2018-01-07T14:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cucumber.runner.ExcelSheetreporting@62043840]" name="setUp" is-config="true" duration-ms="2" started-at="2018-01-07T14:57:56Z" finished-at="2018-01-07T14:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.runner.ExcelSheetreporting@62043840]" name="feature" duration-ms="1667" started-at="2018-01-07T14:57:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-01-07T14:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Title of your feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.cucumber.runner.ExcelSheetreporting@62043840]" name="test" duration-ms="1" started-at="2018-01-07T14:57:57Z" finished-at="2018-01-07T14:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.cucumber.runner.ExcelSheetreporting@62043840]" name="reportSetup" is-config="true" duration-ms="8" started-at="2018-01-07T14:57:57Z" finished-at="2018-01-07T14:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.runner.ExcelSheetreporting@62043840]" name="tearDownClass" is-config="true" duration-ms="552" started-at="2018-01-07T14:57:57Z" finished-at="2018-01-07T14:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.runner.ExcelSheetreporting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
