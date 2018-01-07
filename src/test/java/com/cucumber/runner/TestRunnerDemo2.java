@@ -2,7 +2,6 @@ package com.cucumber.runner;
 
 import java.io.File;
 
-import org.junit.runner.RunWith;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -11,10 +10,9 @@ import com.cucumber.listener.ExtentProperties;
 import com.cucumber.listener.Reporter;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@RunWith(Cucumber.class)
+//@RunWith(Cucumber.class)
 @CucumberOptions(strict = true, features = { "src/test/resources/login2.feature" }, plugin = {
 		"com.cucumber.listener.ExtentCucumberFormatter:" }, glue = { "com.cucumber.test" }, dryRun = false)
 public class TestRunnerDemo2 extends AbstractTestNGCucumberTests {

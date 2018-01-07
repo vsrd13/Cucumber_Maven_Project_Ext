@@ -1,7 +1,0 @@
-com\cucumber\runner\TestRunnerDemo.class
-com\cucumber\runner\TestRunnerDemo2.class
-com\cucumber\test\StepDefinitionsLogin.class
-com\cucumber\test\StepDefinitions.class
-com\cucumber\utils\Datahelper.class
-com\cucumber\utils\Datahelper$1.class
-com\cucumber\test\InvokedMethodListener.class

@@ -32,7 +32,8 @@ public class TestRunnerDemo extends AbstractTestNGCucumberTests {
 		Date curDate = new Date();
 		String strDate = sdf.format(curDate);
 		File file = new File(".//");
-		extentProperties.setReportPath("output/myreport" + strDate + ".html");
+		// extentProperties.setReportPath("output/myreport" + strDate +
+		// ".html");
 
 		// ExtentCucumberFormatter.initiateExtentCucumberFormatter();
 	}
