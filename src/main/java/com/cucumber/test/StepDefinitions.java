@@ -101,14 +101,4 @@ public class StepDefinitions extends ResultSheetHelper {
 
 	}
 
-	@Given("^user(\\d+) navigates to URL with excel row \"([^\"]*)\" dataset$")
-	public void user_navigates_to_URL_with_excel_row_dataset(int arg1, String arg2) throws Throwable {
-
-	}
-
-	@When("^user logs in using with excel row \"([^\"]*)\" dataset$")
-	public void user_logs_in_using_with_excel_row_dataset(String arg1) throws Throwable {
-
-	}
-
 }
