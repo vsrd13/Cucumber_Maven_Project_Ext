@@ -8,7 +8,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(strict = true, features = { "src/test/resources/excelsheet.feature" }, plugin = {
-		"com.cucumber.listener.ExtentCucumberFormatter:" }, glue = { "com.cucumber.test" }, dryRun = false)
+		"com.cucumber.listener.ExtentCucumberFormatter:", }, glue = { "com.cucumber.test" }, dryRun = false)
 public class ExcelSheetreporting extends AbstractTestNGCucumberTests {
 
 	@BeforeClass
